@@ -1,3 +1,4 @@
+import { FirstLanding } from '@mono-vite/pages';
 import { Link, Route, Routes } from 'react-router-dom';
 import * as S from './header.styles';
 
@@ -22,7 +23,7 @@ export function Header(props: HeaderProps) {
       </S.Nav>
       <Routes>
         <Route path="/" element={<p>home</p>} />
-        <Route path="/first-landing" element={<p>FirstLanding!</p>} />
+        <Route path="/first-landing" element={<FirstLanding />} />
         <Route path="/about" element={<p>about</p>} />
       </Routes>
     </>
