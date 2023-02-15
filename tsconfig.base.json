@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mono-vite/first-landing": ["libs/first-landing/src/index.ts"],
+      "@mono-vite/layout": ["libs/layout/src/index.ts"],
+      "@mono-vite/pages": ["libs/pages/src/index.ts"],
       "@mono-vite/shared": ["libs/shared/src/index.ts"]
     }
   },

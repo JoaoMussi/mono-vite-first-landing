@@ -1,4 +1,4 @@
-import { Footer, Header } from '@mono-vite/first-landing';
+import { Footer, Header } from '@mono-vite/layout';
 
 export function App() {
   return (
