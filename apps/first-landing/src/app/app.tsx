@@ -1,12 +1,10 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import { Footer, Header } from '@mono-vite/first-landing';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="first-landing" />
-      <div />
+      <Header></Header>
+      <Footer></Footer>
     </>
   );
 }
